@@ -34,12 +34,12 @@ To do this, first copy `src/auth_config.json.example` into a new file in the sam
 
 ```json
 {
-  "domain": "{YOUR AUTH0 DOMAIN}",
-  "clientId": "{YOUR AUTH0 CLIENT ID}",
-  "audience": "{YOUR AUTH0 API_IDENTIFIER}",
-  "appOrigin": "{OPTIONAL: THE BASE URL OF YOUR APPLICATION (default: http://localhost:3000)}",
-  "apiOrigin": "{OPTIONAL: THE BASE URL OF YOUR API (default: http://localhost:3001)}"
-}
+    "domain": "{YOUR AUTH0 DOMAIN}",
+    "clientId": "{YOUR AUTH0 CLIENT ID}",
+    "audience": "{YOUR AUTH0 API_IDENTIFIER}",
+    "secret": "{YOUR AUTH0 CLIENT_SECRET}",
+    "management_id": "{YOUR AUTH0 MANAGEMENT_API_CLINET_ID}"
+  }
 ```
 
 **Note**: Do not specify a value for `audience` here if you do not wish to use the API part of the sample.

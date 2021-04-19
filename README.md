@@ -38,7 +38,7 @@ To do this, first copy `src/auth_config.json.example` into a new file in the sam
     "clientId": "{YOUR AUTH0 CLIENT ID}",
     "audience": "{YOUR AUTH0 API_IDENTIFIER}",
     "secret": "{YOUR AUTH0 CLIENT_SECRET}",
-    "management_id": "{YOUR AUTH0 MANAGEMENT_API_CLINET_ID}"
+    "management_id": "{YOUR AUTH0 MANAGEMENT_API_CLIENT_ID}"
   }
 ```
 

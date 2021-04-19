@@ -30,6 +30,7 @@
   right: 0;
 }
 
-.result-block-container .result-block {
+.result-block-container{
   opacity: 1;
+  max-height: 30px;
 }
